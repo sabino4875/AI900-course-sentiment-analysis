@@ -1,0 +1,360 @@
+{
+    "documents": [
+        {
+            "id": "id__646",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.36,
+                "neutral": 0.09,
+                "negative": 0.55
+            },
+            "sentences": [
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.99,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 0,
+                    "length": 25,
+                    "text": "Great product and price! ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 6,
+                            "length": 7,
+                            "text": "product",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/0/assessments/0"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 18,
+                            "length": 5,
+                            "text": "price",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/0/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 0,
+                            "length": 5,
+                            "text": "Great",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.03,
+                        "neutral": 0.18,
+                        "negative": 0.8
+                    },
+                    "offset": 25,
+                    "length": 17,
+                    "text": "Waaay too small. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.86,
+                        "neutral": 0.13,
+                        "negative": 0.01
+                    },
+                    "offset": 42,
+                    "length": 29,
+                    "text": "Will use for futur children! ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.83,
+                        "neutral": 0.14,
+                        "negative": 0.02
+                    },
+                    "offset": 71,
+                    "length": 30,
+                    "text": "My son really likes the pink. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 95,
+                            "length": 4,
+                            "text": "pink",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/3/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 85,
+                            "length": 5,
+                            "text": "likes",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.06,
+                        "neutral": 0.14,
+                        "negative": 0.8
+                    },
+                    "offset": 101,
+                    "length": 72,
+                    "text": "Ones which I was nervous about Relieved my Plantar Fascitis for 3 Days. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.02,
+                        "negative": 0.98
+                    },
+                    "offset": 173,
+                    "length": 49,
+                    "text": "Then the unbearable pain returned in full force. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.66,
+                        "neutral": 0.31,
+                        "negative": 0.03
+                    },
+                    "offset": 222,
+                    "length": 41,
+                    "text": "These were recommended by my Podiatrist. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.96,
+                        "neutral": 0.03,
+                        "negative": 0.01
+                    },
+                    "offset": 263,
+                    "length": 102,
+                    "text": "This is my 6th pair and they are the best thing ever for my plantar fasciitis and resultant neuromas. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.01,
+                        "negative": 0.98
+                    },
+                    "offset": 365,
+                    "length": 94,
+                    "text": "Unfortunately, the ones I ordered from SmartDestination must be seconds as they kill my feet. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.06,
+                        "negative": 0.94
+                    },
+                    "offset": 459,
+                    "length": 62,
+                    "text": "The hard plastic insert rubs on the outside edges of my feet. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.02,
+                                "negative": 0.98
+                            },
+                            "offset": 463,
+                            "length": 19,
+                            "text": "hard plastic insert",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/9/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.02,
+                                "negative": 0.98
+                            },
+                            "offset": 483,
+                            "length": 4,
+                            "text": "rubs",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.02,
+                        "negative": 0.98
+                    },
+                    "offset": 521,
+                    "length": 91,
+                    "text": "I am unable to exchange them as I waited one day too late to use them in my walking shoes. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.18,
+                        "negative": 0.81
+                    },
+                    "offset": 612,
+                    "length": 58,
+                    "text": "I only give four stars because the pants have no pockets. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.01,
+                        "negative": 0.99
+                    },
+                    "offset": 670,
+                    "length": 129,
+                    "text": "Was terribly disappointed, the pants were way too large in the legs, my husband looked like he was wearing blown up clown pants. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0,
+                                "negative": 1
+                            },
+                            "offset": 701,
+                            "length": 5,
+                            "text": "pants",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/12/assessments/0"
+                                },
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/12/assessments/1"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0,
+                                "negative": 1
+                            },
+                            "offset": 683,
+                            "length": 12,
+                            "text": "disappointed",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 716,
+                            "length": 9,
+                            "text": "too large",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.06,
+                        "negative": 0.93
+                    },
+                    "offset": 799,
+                    "length": 45,
+                    "text": "Constantly rolls down Sadly, not a true red. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.92,
+                        "neutral": 0.07,
+                        "negative": 0.01
+                    },
+                    "offset": 844,
+                    "length": 155,
+                    "text": "It's definitely orange For the price I spent on the pair of shoes, I'd say it's as good as expected.\\nIt's comfortable and doesn't hurt my feet when I run.",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}
